@@ -1,0 +1,76 @@
+{
+    'about' : [
+        'icon' : 'img/avatar.png',
+        'bio' : 'i never know how to write bios'
+    ],
+    
+    'media-accounts' : [
+        {
+            'service' : 'soundcloud',
+            'profile' : 'furgat',
+            'url' : 'https://soundcloud.com/furgat'
+        },
+        {
+            'service' : 'twitter',
+            'profile' : '@furgat',
+            'url' : 'http://twitter.com/furgat'
+        },
+        {
+            'service' : 'mastodon',
+            'profile' : '@furgat',
+            'url' : 'http://mastodon.social/users/furgat'
+        }
+    ],
+    
+    'games' : [
+        {
+            'title' : 'LIKEWISE (SAME)',
+            'icon' : 'img/likewise.jpg',
+            'location' : '/likewise/',
+            'overview' : 'A microgame built from my feelings on existing, growth, and isolation.',
+            'genre' : 'Experimental',
+            'playtime' : '5-10 minutes',
+            'filesize' : '10.2MB',
+            'engine' : 'Stencyl',
+            'engine-url' : 'http://stencyl.com'
+        },
+        {
+            'title' : 'MXGENDER',
+            'icon' : 'img/mxgender.jpg',
+            'location' : '/mxgender/',
+            'overview' : 'A microgame about identities and assumptions.',
+            'genre' : 'Puzzle',
+            'playtime' : '5-10 minutes',
+            'filesize' : '906KB',
+            'engine' : 'Stencyl',
+            'engine-url' : 'http://stencyl.com'
+        },
+    ],
+    
+    'rad-folx' : [
+        {
+            'name' : 'Nikki',
+            'icon' : 'https://pbs.twimg.com/profile_images/2473172437/bsoc376sljihwjzp7ycv_400x400.png',
+            'url' : 'http://skirtdingo.neocities.org/',
+            'bio' : 'genderpunk jelly skirt-dingo'
+        },
+        {
+            'name' : 'Tooth',
+            'icon' : 'https://pbs.twimg.com/profile_images/531475928623218689/EnXckKAd_400x400.png',
+            'url' : 'http://toothbops.neocities.org/',
+            'bio' : ''
+        },
+        {
+            'name' : 'h34rken!',
+            'icon' : 'img/h34rken.jpg',
+            'url' : 'https://h34rken.bandcamp.com/',
+            'bio' : 'agender #cripplepunk musician/glitch artist'
+        },
+        {
+            'name' : 'Rabbit Rabbit',
+            'icon' : 'img/rabbitrabbit.jpg',
+            'url' : 'https://rabbitrabbit.bandcamp.com/',
+            'bio' : 'social justice berserker'
+        }
+    ]
+}
