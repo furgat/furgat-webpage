@@ -9,28 +9,28 @@ export default class About extends React.Component {
         bio: 'i never know how to write bios',
         social_media: [
           {
-              'service' : 'github',
-              'icon' : 'fa fa-github-alt fa-fw',
-              'profile' : 'furgat',
-              'url' : 'http://github.com/furgat'
+              service : 'github',
+              icon : 'fa fa-github-alt fa-fw',
+              profile : 'furgat',
+              url : 'http://github.com/furgat'
           },
           {
-              'service' : 'soundcloud',
-              'icon' : 'fa fa-soundcloud fa-fw',
-              'profile' : 'furgat',
-              'url' : 'https://soundcloud.com/furgat'
+              service : 'soundcloud',
+              icon : 'fa fa-soundcloud fa-fw',
+              profile : 'furgat',
+              url : 'https://soundcloud.com/furgat'
           },
           {
-              'service' : 'twitter',
-              'icon' : 'fa fa-twitter fa-fw',
-              'profile' : '@furgat',
-              'url' : 'http://twitter.com/furgat'
+              service : 'twitter',
+              icon : 'fa fa-twitter fa-fw',
+              profile : '@furgat',
+              url : 'http://twitter.com/furgat'
           },
           {
-              'service' : 'mastodon',
-              'icon' : 'fa fa-pencil-square fa-fw',
-              'profile' : '@furgat',
-              'url' : 'http://mastodon.social/users/furgat'
+              service : 'mastodon',
+              icon : 'fa fa-pencil-square fa-fw',
+              profile : '@furgat',
+              url : 'http://mastodon.social/users/furgat'
           }
       ]
     }
