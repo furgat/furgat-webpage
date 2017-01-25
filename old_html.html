@@ -1,0 +1,73 @@
+
+
+<div id="content" ng-controller="furgatMain">
+    
+    <div class="main_games" ng-show="whichTab('games')">
+        <p class="info">
+            Listed Below: all games made under the <b>FURG@</b> alias, listed with their <i class="fa fa-list-ul"></i>&nbsp;GENRE, <i class="fa fa-clock-o"></i>&nbsp;APPROXIMATED LENGTH, and <i class="fa fa-cogs"></i>&nbsp;ENGINE.<br/>
+        <br/>Clicking on the game's title ( marked with a chevron <i class="fa fa-chevron-circle-right"></i> ) will open their game theater page in a new tab.
+        </p>
+        <table>
+            <tr ng-repeat="game in games">
+                <td>
+                    <img src="{{game.icon}}" alt="{{game.title}}"/>
+                </td>
+                <td>
+                    <a href="{{game.location}}" target="_blank">{{game.title}}&nbsp;<i class="fa fa-chevron-circle-right"></i></a>
+                    <p>
+                        {{game.overview}}
+                    </p>
+                    <p>
+                        <i class="fa fa-list-ul fa-fw"></i>&nbsp;{{game.genre}}<br/>
+                        <i class="fa fa-clock-o fa-fw"></i>&nbsp;{{game.playtime}} // {{game.filesize}}<br/>
+                        <i class="fa fa-cogs fa-fw"></i>&nbsp;Made with <a href="{{game.engine-url}}" target="_blank">{{game.engine}}&nbsp;<i class="fa fa-external-link"></i></a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="main_about" ng-show="whichTab('about')">
+        <table>
+            <tr>
+                <td>
+                    <img src="{{about.icon}}" alt="FURGAT" /><br/>
+                    ( icon by {{about.iconcredit}} )
+                </td>
+                <td>
+                    <h1>FURGAT</h1>
+                    <p>
+                        {{about.bio}}
+                    </p>
+                    <p>
+                        Please please please also check out the cool people in the <i class="fa fa-users"></i>&nbsp;RAD FOLX tab!
+                    </p>
+                    <h1>Also find me at:</h1>
+                    <ul class="media">
+                        <li ng-repeat="acct in media">
+                            <i class="fa {{acct.icon}} fa-fw"></i>&nbsp;
+                                <a href="{{acct.url}}" target="_blank">
+                                    {{acct.profile}} on {{acct.service}}&nbsp;<i class="fa fa-external-link"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="main_radfolx" ng-show="whichTab('radfolx')">
+        <table>
+            <tr>
+                <td ng-repeat="folk in radfolx">
+                    <p class="radfolx">
+                        <img src="{{folk.icon}}" alt="{{folk.name}}"/><br/>
+                        <a href="{{folk.url}}" target="_blank">{{folk.name}}&nbsp;<i class="fa fa-external-link"></i></a><br/>
+                        {{folk.bio}}<br/>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+    </div>
+</div>

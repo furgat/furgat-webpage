@@ -1,0 +1,58 @@
+* { box-sizing: border-box; }
+
+body {
+    background: url('../img/background.jpg') no-repeat center center fixed #3f2e3f;
+    text-align: center; background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#logo {
+    margin: 1em auto auto auto; overflow: auto; position: relative;
+}
+
+/* layout */
+.top-container { padding: 0; }
+
+#content {
+  background-color: #222; margin: 0 auto;
+  padding: 0;
+}
+
+/* navigation */
+.tabs {
+    list-style: none; margin: 0 auto; padding: 0;
+}
+
+.tabs li {
+    font-size: 2em; background-color: #333; color: #DEDEDE; cursor: pointer; padding: 0;
+}
+
+.tabs li:hover { background-color: #444; color: #e0bcf2; }
+
+.tabs li.selected-true { background-color: #444; }
+
+/* page body */
+.pages { padding: 1em; }
+
+.pages img { padding-left: 0; }
+
+h1 {
+    color: #DEDEDE; text-decoration: none;
+    font-size: 2em; font-weight: 400; margin: 0; padding: 0;
+}
+
+/* about */
+.info { background-color: #333; color: #DEDEDE; padding: 1em; margin-bottom: 0em; }
+
+.media { display: block; list-style: none; padding: 0; margin: 0; }
+
+.media li a { font-size: 1em; }
+
+/* radfolx */
+.radfolx { text-align: center; }
+
+.radfolx img { max-width: 150px; }
+
+.radfolx a { font-size: 1.5em; }
+
+.main_radfolx td { width: 25%; padding: 0em 0em; padding-top: 1.5em; }
