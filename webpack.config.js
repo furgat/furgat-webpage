@@ -19,7 +19,7 @@ module.exports = {
     ]
   },
   output: {
-    path: __dirname + '/src',
+    path: __dirname + '/docs',
     filename: 'app.min.js'
   },
   plugins: debug ? [] : [
