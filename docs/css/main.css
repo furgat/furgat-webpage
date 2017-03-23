@@ -20,7 +20,7 @@ body {
 
 a { color: #facade; }
 a:hover { color: #FFF; text-decoration: none; }
-a:visited { color: #dabbed; }
+a:visited { color: #dabbed; text-decoration: none; }
 
 /* navigation */
 .tabs {
@@ -28,7 +28,8 @@ a:visited { color: #dabbed; }
 }
 
 .tabs a {
-    font-size: 2em; background-color: #333; cursor: pointer; padding: 0;
+    font-size: 1.5em; background-color: #333; cursor: pointer; padding: 0.5em;
+    text-decoration: none;
 }
 
 .tabs a:hover { background-color: #444; }

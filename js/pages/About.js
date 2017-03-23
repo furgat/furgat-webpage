@@ -20,18 +20,6 @@ export default class About extends React.Component {
               profile : 'furgat',
               url : 'https://soundcloud.com/furgat'
           },
-          {
-              service : 'twitter',
-              icon : 'fa fa-twitter fa-fw',
-              profile : '@furgat',
-              url : 'http://twitter.com/furgat'
-          },
-          {
-              service : 'mastodon',
-              icon : 'fa fa-pencil-square fa-fw',
-              profile : '@furgat',
-              url : 'http://mastodon.social/users/furgat'
-          }
       ]
     }
   }
